@@ -1,0 +1,10 @@
+<p>Kan du hitta items som inte hör hemma här?</p>
+
+<ul>
+  <li>om oss</li>
+  <li>verksammhet</li>
+  <li>produktion</li>
+  <li>recensioner</li>
+  <li>bilder</li>
+  <li>kontakt</li>
+</ul>
