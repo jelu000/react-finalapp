@@ -1,26 +1,48 @@
 import React from 'react'
-//import PropTypes from 'prop-types'
+import { Route, NavLink, HashRouter} from 'react-router-dom'
+//import PropTypes from 'prop-types'//
 import './Menu.css'
 
 class Menu extends React.Component {
+
+
+
   render () {
     var visibility = "hide";
-    console.log("Menu: hide");
+    //console.log("Menu: hide");
 
     if (this.props.menuVisibility){
       visibility = "show";
-      console.log("Menu: show");
+      //console.log("Menu: show");
     }
 
     return (
-      <div id="flyoutMenu"
-        onMouseDown={this.props.handleMouseDown}
-        className={visibility}
-        >
-        <h4> <a href="#">Home</a> </h4>
-        <h4> <a href="#">About</a> </h4>
-        <h4> <a href="#">Search</a> </h4>
-        <h4> <a href="#">Contact</a> </h4>
+
+
+      <div>
+
+
+        <div id="flyoutMenu"
+          onMouseDown={this.props.handleMouseDown}
+          className={visibility}
+          >
+
+          <h4> <a href="#"> hej  </a> </h4>
+          <h4> <a href="#"> då  </a> </h4>
+        </div>
+
+        <HashRouter>
+
+        <div className="contdiv">
+
+            <Route exact  path="/"> <h2>Hej</h2> </Route>
+            <a href="http://salongnobless.se/vind/"> <h2>Vind</h2>  </a>
+
+
+          </div>
+
+        </HashRouter>
+
       </div>
     );
   }

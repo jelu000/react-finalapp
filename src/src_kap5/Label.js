@@ -1,10 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+//import PropTypes from 'prop-types'
 
 class Label extends React.Component {
 
 
-  
+
 
   render () {
 

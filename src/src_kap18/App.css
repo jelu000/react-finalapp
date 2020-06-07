@@ -1,23 +1,10 @@
-body {
-  background-color: pink;
-  text-decoration: underline;
-
-}
-
-.huvudHead {
- font-family: arial;
-  background-color: pink;
-}
-
 .App {
  background-color: pink;
-
 }
 
 ul.header {
  background-color: #111;
  padding: 0;
-
 }
 
 ul.header li {
@@ -28,17 +15,15 @@ margin: 0;
 
 ul.header li a {
   color: #fff;
-  font-weight: normal;
-  font-size: small;
+  font-weight: bold;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   display: inline-block;
 }
 
 .content {
   background-color: #fff;
   padding: 20px;
-  
 }
 
 .content h3 {

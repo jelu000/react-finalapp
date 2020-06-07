@@ -1,0 +1,55 @@
+<Route exact path="/kap5"><Card color="blue"/> </Route>
+<Route path="/kap6"> <Shirt color="white" num="3.14" size="medium"/> </Route>
+
+<Route path="/kap5" component={Card}/>
+<Route path="/kap6" component={Shirt}/>
+
+
+  < FinalApp />
+
+  <Route path="/kap6"> <Shirt color="white" num="3.14" size="medium"/> </Route>
+
+  <Route path="/kap5" component={Card}/>
+
+
+
+
+  <HashRouter>
+    <Menucontainer className="menucontainer"> </Menucontainer>
+
+
+    <div className="contdiv">
+      <Route exact  path="/"> <h2>Hej</h2> </Route>
+      <Route  path="/sid2"> <h2>Då</h2> </Route>
+
+
+
+
+    </div>
+  </HashRouter>
+
+
+  -------------------------
+    <h4> <NavLink exact to="/">Components and props - kap 5</NavLink> </h4>
+
+  ------------------------
+
+  return (
+    <div className="App">
+
+      <HashRouter>
+
+
+        <Menucontainer className="menucontainer"> </Menucontainer>
+
+          <div className="contdiv">
+              <Route  path="/"> <h2>Hej</h2> </Route>
+              <Route  path="/sid2"> <h2>Då</h2> </Route>
+
+          </div>
+
+
+      </HashRouter>
+
+    </div>
+  );
