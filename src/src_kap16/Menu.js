@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, NavLink, HashRouter} from 'react-router-dom'
-//import PropTypes from 'prop-types'//
+//import PropTypes from 'prop-types'//testar git
 import './Menu.css'
 
 class Menu extends React.Component {
